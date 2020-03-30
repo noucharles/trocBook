@@ -1,0 +1,26 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "MyDataSourceNKC": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "TrocDB",
+    "password": "",
+    "name": "MyDataSourceNKC",
+    "user": "",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  },
+  "local-storageNKC": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "TrocDB",
+    "username": "",
+    "password": "",
+    "name": "local-storageNKC",
+    "connector": "loopback-component-storage-gridfs"
+  }
+}

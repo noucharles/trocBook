@@ -1,0 +1,59 @@
+{
+  "name": "Article",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "category": {
+      "type": "string",
+      "required": true
+    },
+    "pictures": {
+      "type": [
+        "string"
+      ],
+      "required": true
+    },
+    "averageStar": {
+      "type": "number"
+    },
+    "city": {
+      "type": "string",
+      "required": true
+    },
+    "district": {
+      "type": "string",
+      "required": true
+    },
+    "createdAt": {
+      "type": "number"
+    },
+    "owner": {
+      "type": "string"
+    },
+    "availabity": {
+      "type": "object",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "utilisateur": {
+      "type": "belongsTo",
+      "model": "Utilisateur",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
