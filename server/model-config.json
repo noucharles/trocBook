@@ -36,23 +36,23 @@
     "public": false
   },
   "Container": {
-    "dataSource": "local-storageNKC",
+    "dataSource": "TrocDB",
     "public": true
   },
   "Utilisateur": {
-    "dataSource": "MyDataSourceNKC",
+    "dataSource": "TrocDB",
     "public": true
   },
   "Article": {
-    "dataSource": "MyDataSourceNKC",
+    "dataSource": "TrocDB",
     "public": true
   },
   "Message": {
-    "dataSource": "MyDataSourceNKC",
+    "dataSource": "TrocDB",
     "public": true
   },
   "Notification": {
-    "dataSource": "MyDataSourceNKC",
+    "dataSource": "TrocDB",
     "public": true
   }
 }
